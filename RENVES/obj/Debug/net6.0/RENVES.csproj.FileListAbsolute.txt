@@ -8,9 +8,9 @@ C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\RENVES.pdb
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Ardalis.Specification.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Ardalis.Specification.EntityFrameworkCore.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\MediatR.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\System.Net.Http.Formatting.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\System.Web.Http.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\System.Web.Http.WebHost.dll
@@ -22,11 +22,9 @@ C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.EntityFramew
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\Obed\source\repos\RENVES\RENVES\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll

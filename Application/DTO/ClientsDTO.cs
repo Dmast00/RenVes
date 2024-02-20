@@ -8,10 +8,11 @@ namespace Application.DTO
 {
     public class ClientsDTO
     {
-        public string Client_Name { get; set; }
-        public string Client_LastName { get; set; }
-        public string Client_PhoneNumber { get; set; }
-        public string Client_Email { get; set; }
+        public int Client_id { get; set; }
+        public string? Client_Name { get; set; }
+        public string? Client_LastName { get; set; }
+        public string? Client_PhoneNumber { get; set; }
+        public string? Client_Email { get; set; }
         public DateTime Client_Register_Date { get; set; }
     }
 }

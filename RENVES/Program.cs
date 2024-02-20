@@ -1,11 +1,15 @@
-using Microsoft.Extensions.Configuration;
+using Application;
+using Persistence;
 using RENVES.Extensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 IConfiguration configuration = builder.Configuration;
 IWebHostEnvironment environment = builder.Environment;
 // Add services to the container.
 var Cors = "Cors";
+builder.Services.AddApplicationLayer();
+builder.Services.AddPersistenceInfrastructure(configuration);
 builder.Services.AddControllers();
 builder.Services.AddApiVersioningExtension();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -22,7 +26,7 @@ builder.Services.AddCors(options =>
         });
 });
 var app = builder.Build();
-
+app.UseCors(Cors);
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
