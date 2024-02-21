@@ -37,7 +37,8 @@ namespace Application.Feautures.Client.Commands.CreateClientCommand
         {
             var map = _mapper.Map<Clients>(request);
             var data = await _repositoryAsync.AddAsync(map);
-            return new Response<int>(data.Client_id);
+            string message = "Client Register Succesfully"; 
+            return new Response<int>(data.Client_id,message);
         }
     }
 }
