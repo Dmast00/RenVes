@@ -1,5 +1,6 @@
 ﻿using Application.Feautures.Client.Commands.CreateClientCommand;
 using Application.Feautures.Client.Queries.GetAllClientsQuery;
+using Application.Feautures.Client.Queries.GetClientByIdQuery;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RENVES.Controllers.V1
@@ -20,6 +21,15 @@ namespace RENVES.Controllers.V1
             {
                 PageNumber = parameters.PageNumber,
                 Pagesize = parameters.Pagesize
+            }));
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            return Ok(await Mediator.Send(new GetClientByIdQuery
+            {
+                Client_Id = id,
             }));
         }
     }
