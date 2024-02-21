@@ -19,12 +19,7 @@ namespace Application.Feautures.Client.Queries.GetAllClientsQuery
         public int PageNumber { get; set; }
         public int Pagesize { get; set; }
 
-        public int Client_id { get; set; }
-        public string? Client_Name { get; set; }
-        public string? Client_LastName { get; set; }
-        public string? Client_PhoneNumber { get; set; }
-        public string? Client_Email { get; set; }
-        public DateTime Client_Register_Date { get; set; }
+
     }
 
    public class GetAllClientsQueryHandler : IRequestHandler<GetAllClientsQuery, PageResponse<List<ClientsDTO>>>
