@@ -18,8 +18,6 @@ namespace Application.Feautures.Client.Queries.GetAllClientsQuery
     {
         public int PageNumber { get; set; }
         public int Pagesize { get; set; }
-
-
     }
 
    public class GetAllClientsQueryHandler : IRequestHandler<GetAllClientsQuery, PageResponse<List<ClientsDTO>>>
