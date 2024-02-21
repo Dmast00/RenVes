@@ -1,4 +1,5 @@
 ﻿using Application.Feautures.Client.Commands.CreateClientCommand;
+using Application.Feautures.Client.Commands.DeleteClientCommand;
 using Application.Feautures.Client.Queries.GetAllClientsQuery;
 using Application.Feautures.Client.Queries.GetClientByIdQuery;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,12 @@ namespace RENVES.Controllers.V1
             {
                 Client_Id = id,
             }));
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(DeleteClientCommand command)
+        {
+            return Ok(await Mediator.Send(command));
         }
     }
 }
